@@ -18,11 +18,11 @@ class readme:
 		}
 		
 	async def main(self):
-		ctypes.windll.kernel32.SetConsoleTitleW("about me")
-		sys.stdout.write(f""" 
+	    ctypes.windll.kernel32.SetConsoleTitleW("about me")
+	    sys.stdout.write(f""" 
 		username -> {self._username}
 		contacts -> discord: {self._contacts['discord']['user']}
-        	programming language -> {self._lang}
+		programming language -> {self._lang}
 		""")
 		
 if __name__ == "__main__":
