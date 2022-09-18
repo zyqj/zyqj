@@ -26,5 +26,5 @@ class readme:
 		""")
 		
 if __name__ == "__main__":
-	asyncio.run(readme("vile/syn", "python").main())
+	asyncio.run(readme("vile, syn", "python").main())
 ```
