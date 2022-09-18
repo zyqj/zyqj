@@ -2,7 +2,7 @@
 import sys, ctypes, asyncio
 
 class readme:
-	def __init__(self, username : str, lang : str):
+	def __init__(self, username : str, lang : str) -> None:
 		self._username = username 
 		self._lang = lang
 		self._contacts = {
