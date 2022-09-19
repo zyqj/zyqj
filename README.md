@@ -18,7 +18,7 @@ class readme:
 		}
 		
 	async def main(self):
-	    ctypes.windll.kernel32.SetConsoleTitleW("about me")
+	    ctypes.windll.kernel32.SetConsoleTitleW("about-me")
 	    sys.stdout.write(f""" 
 		username -> {self._username}
 		contacts -> discord: {self._contacts['discord']['user']}
