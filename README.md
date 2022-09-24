@@ -1,3 +1,4 @@
+```python
 import sys, ctypes, asyncio
 
 class readme:
@@ -26,3 +27,4 @@ class readme:
 		
 if __name__ == "__main__":
 	asyncio.run(readme("vile, syn", "python").main())
+```
