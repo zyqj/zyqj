@@ -7,7 +7,7 @@ class readme:
 		self._lang = lang
 		self._contacts = {
 			"discord": {
-				"user": "vile#6420",
+				"user": "vile#2702",
 				"id": "1003643218577068112"
 			},
 			
